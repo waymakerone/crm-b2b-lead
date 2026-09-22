@@ -4,18 +4,56 @@
   "description": "Lead-centric B2B CRM with lead qualification, conversion to Account/Contact/Opportunity, campaigns, and pipeline management — Salesforce-style on WaymakerOS",
   "category": "tool",
   "framework": "react",
-  "tags": ["react", "typescript", "crm", "sales", "pipeline", "leads", "opportunities", "b2b", "enterprise"],
+  "tags": [
+    "react",
+    "typescript",
+    "crm",
+    "sales",
+    "pipeline",
+    "leads",
+    "opportunities",
+    "b2b",
+    "enterprise"
+  ],
   "is_featured": true,
   "difficulty": "advanced",
   "estimated_time": "6-8 hours",
-  "commander_tools": ["Contacts", "Tables", "Tasks", "Calendar", "Journeys", "Docs", "Metrics"],
+  "commander_tools": [
+    "Contacts",
+    "Tables",
+    "Tasks",
+    "Calendar",
+    "Journeys",
+    "Docs",
+    "Metrics"
+  ],
   "app_type": "ex",
   "sections": [
-    { "id": "leads", "name": "Lead Management", "purpose": "Capture, qualify, and convert leads into accounts, contacts, and opportunities" },
-    { "id": "pipeline", "name": "Opportunity Pipeline", "purpose": "Kanban board tracking opportunities through sales stages" },
-    { "id": "campaigns", "name": "Campaigns", "purpose": "Track marketing campaigns with lead source attribution and ROI" },
-    { "id": "activities", "name": "Activities & Calls", "purpose": "Log calls, emails, meetings linked to leads and opportunities" },
-    { "id": "dashboard", "name": "Sales Dashboard", "purpose": "Pipeline value, lead conversion rates, campaign ROI, and forecasting" }
+    {
+      "id": "leads",
+      "name": "Lead Management",
+      "purpose": "Capture, qualify, and convert leads into accounts, contacts, and opportunities"
+    },
+    {
+      "id": "pipeline",
+      "name": "Opportunity Pipeline",
+      "purpose": "Kanban board tracking opportunities through sales stages"
+    },
+    {
+      "id": "campaigns",
+      "name": "Campaigns",
+      "purpose": "Track marketing campaigns with lead source attribution and ROI"
+    },
+    {
+      "id": "activities",
+      "name": "Activities & Calls",
+      "purpose": "Log calls, emails, meetings linked to leads and opportunities"
+    },
+    {
+      "id": "dashboard",
+      "name": "Sales Dashboard",
+      "purpose": "Pipeline value, lead conversion rates, campaign ROI, and forecasting"
+    }
   ],
   "design": {
     "colorPalette": "Enterprise — navy (#001126) primary, gold (#A49886) accent, blue (#3D5B6C) secondary, sand (#F5F5F0) background",
@@ -26,5 +64,12 @@
   "starter_prompt": "I want to build a lead-centric CRM using the WaymakerOS CRM B2B Lead blueprint. Use host_blueprint_get with blueprint_id \"crm-b2b-lead\" to get the full blueprint, then guide me through building it.",
   "seo_title": "Lead Management CRM Template — Build with AI | WaymakerOS",
   "seo_description": "Build a Salesforce-style lead CRM with qualification, opportunity pipeline, and campaign tracking. Built on your data.",
-  "seo_keywords": ["lead management CRM template", "Salesforce alternative builder", "lead tracking app"]
+  "seo_keywords": [
+    "lead management CRM template",
+    "Salesforce alternative builder",
+    "lead tracking app"
+  ],
+  "topics": [
+    "sales"
+  ]
 }
